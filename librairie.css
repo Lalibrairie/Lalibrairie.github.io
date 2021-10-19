@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'cinnamon_cakeregular';
+    src: url('font/cinnamon_cake-webfont.woff2') format('woff2'),
+         url('font/cinnamon_cake-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+/**NAV**/
+
+body {
+    margin: 0;
+        background-color: rgb(222, 241, 112);
+    }
+    
+    .menu {
+    
+        background-color: #a9f80b;
+        width: 100%;
+        height: 5vh;
+    }
+    
+    #liens li a {
+    
+        text-decoration: none;
+        font-family: 'cinnamon_cakeregular';
+        color: beige;
+        font-size: 35px;
+      
+    }
+    
+    #liens {
+    
+        list-style: none; 
+       display: flex;
+    justify-content: space-around;
+    }
+    /**NAV!**/
+    
+    
+
+
+
+
+
+
+
+    .premierediv {
+        margin-top: 30px;
+        background-color:#ffae00;
+        width: 100%;
+        height: 32px;
+    }
+    
+    
+    
+    .ppdv { 
+    margin-left: 50px;
+    font-family: 'cinnamon_cakeregular';
+    font-size: 25px;
+    color: beige;
+    
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+    #lib1 {
+
+        margin-top: 30px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+.librairie {
+
+    height: 350px;
+    width: 350px;
+}
+
+.li1 {
+
+font-family: 'cinnamon_cakeregular';
+font-size: 20px;
+margin-left: 30px;
+margin-top: 75px;
+}
+
+
+
+.deuxiemediv {
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#lib2 {
+    display: flex;
+ justify-content: space-around;
+  margin-top: 30px;
+  margin-right: 120px;
+}
+
+
+
+
+
+
+.quatriemediv {
+ display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: beige;
+border-radius: 50px;
+ 
+}
+.li2 {
+  font-family: 'cinnamon_cakeregular';
+font-size: 20px;
+font-weight: bold;
+display: flex;
+background-color:  #a9f80b;
+height: 20px;
+
+}
+
+
+
+
+
+
+
+.plandadresse {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pplan {
+  font-family: 'cinnamon_cakeregular';
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  background-color:  #a9f80b;
+  height: 20px;
+}
+
+.plan {
+
+ 
+  width: 600px;
+  height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+    /**FOOTER**/
+
+
+#footer {
+
+    margin-top: 30px;
+    background-color:#ffae00;
+    width: 100%;
+    height: 170px;
+display: flex;
+justify-content: space-around;
+  }
+
+  .ml0 {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ml {
+
+    font-family: 'cinnamon_cakeregular';
+    color: beige;
+    font-size: 20px;
+   
+  }
+
+  .ps {
+    font-family: 'cinnamon_cakeregular';
+    color: beige;
+    font-size: 20px;
+   
+  }
+
+  .rs {
+    font-family: 'cinnamon_cakeregular';
+    color: beige;
+    font-size: 20px;
+   
+  }
+
+  .reseaux {
+
+    width: 50px;
+    height: 50px;
+  }
+
+  .paiement {
+
+    height: 30px;
+    width: 50px;
+  }
+
